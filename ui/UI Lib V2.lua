@@ -1091,6 +1091,7 @@ function utility.textbox(object, text, placeholder, clear_on_focus, default)
 end
 
 function utility.round(number, float)
+    float = float or 1
     return float * round(number / float)
 end
 
